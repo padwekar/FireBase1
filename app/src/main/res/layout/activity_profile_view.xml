@@ -1,0 +1,42 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+        android:gravity="center_vertical"
+        android:id="@+id/textview_name"
+        android:layout_weight="1"
+        android:hint="Name"
+        android:layout_width="match_parent"
+        android:layout_height="0dp" />
+    <TextView         android:layout_marginLeft="@dimen/activity_horizontal_margin"         android:gravity="center_vertical"
+        android:id="@+id/textview_age"
+        android:layout_weight="1"
+        android:hint="Age"
+        android:layout_width="match_parent"
+        android:layout_height="0dp" />
+    <TextView         android:layout_marginLeft="@dimen/activity_horizontal_margin"         android:gravity="center_vertical"
+        android:id="@+id/textview_sex"
+        android:layout_weight="1"
+        android:hint="Sex"
+        android:layout_width="match_parent"
+        android:layout_height="0dp" />
+    <TextView         android:layout_marginLeft="@dimen/activity_horizontal_margin"         android:gravity="center_vertical"
+        android:id="@+id/textview_phone"
+        android:layout_weight="1"
+        android:hint="Mobile number"
+        android:layout_width="match_parent"
+        android:layout_height="0dp" />
+    <TextView         android:layout_marginLeft="@dimen/activity_horizontal_margin"         android:gravity="center_vertical"
+        android:id="@+id/textview_city"
+        android:layout_weight="1"
+        android:hint="city"
+        android:layout_width="match_parent"
+        android:layout_height="0dp" />
+    
+
+</LinearLayout>
